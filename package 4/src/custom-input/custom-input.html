@@ -1,0 +1,142 @@
+<div class="custom-input">
+  <label ng-if="vm.label"
+    for="{{vm.bindId}}">{{vm.label}}</label>
+  <div class="input-container"
+    tabindex="{{vm.tabIndex || -1}}">
+    <!-- ng-click="vm.dialogOpen=true" -->
+
+    <div ng-if="!vm.$transclude.isSlotFilled('input')
+      && vm.type != 'datepicker'
+      && vm.type != 'datepickerRange'
+      && vm.type != 'rangeSlider'
+      && vm.type != 'textarea'">
+      <input type="{{vm.type}}"
+        name="{{vm.bindName || vm.bindId}}"
+        id="{{vm.bindId}}"
+        ng-model="vm.model"
+        ng-disabled="vm.disabled"
+        ng-required="vm.required"
+        focus-element="vm.focus"
+        placeholder="{{vm.placeholder}}" />
+    </div>
+
+    <div ng-if="vm.type == 'textarea'">
+      <textarea name="{{vm.bindName || vm.bindId}}"
+        id="{{vm.bindId}}"
+        ng-model="vm.model"
+        ng-disabled="vm.disabled"
+        ng-required="vm.required">{{vm.placeholder}}</textarea>
+    </div>
+
+    <div ng-if="vm.type == 'datepicker'">
+      <datepicker date="vm.model"
+        open="vm.open"
+        disabled="vm.disabled"
+        date-min-limit="vm.dateMinLimit"
+        date-max-limit="vm.dateMaxLimit">
+        <input ng-if="!vm.$transclude.isSlotFilled('input')"
+          class="datepicker-input"
+          ng-click="$event.stopPropagation();"
+          ng-model="vm.model"
+          ng-disabled="vm.disabled"
+          ng-required="vm.required"
+          focus-element="vm.focus"
+          input-date />
+        <i class="fa fa-calendar-o fa-fw"></i>
+      </datepicker>
+    </div>
+
+    <div ng-if="vm.type == 'rangeSlider'">
+      <div class="range-slider-field">
+        <rzslider rz-slider-model="vm.model['from']"
+          rz-slider-high="vm.model['to']"
+          rz-slider-options="vm.options"></rzslider>
+      </div>
+    </div>
+
+    <span ng-transclude="input"
+      ng-if="vm.$transclude.isSlotFilled('input')"></span>
+    <span class="icon"
+      ng-if="(vm.icon || vm.iconClass) && !vm.type == 'textarea'"
+      ng-class="vm.iconClass">
+      <span ng-bind="vm.icon"></span>
+    </span>
+
+    <div ng-if="vm.type == 'datepickerRange'">
+      <div class="datepicker-range-field">
+        מ-
+        <datepicker date="vm.model['from']"
+          open="vm.open"
+          disabled="vm.disabled">
+          <input class="datepicker-input"
+            ng-click="$event.stopPropagation();"
+            ng-model="vm.model['from']"
+            ng-disabled="vm.disabled"
+            ng-required="vm.required"
+            input-date />
+          <i class="fa fa-calendar-o fa-fw"></i>
+        </datepicker>
+      </div>
+      <div class="datepicker-range-field">
+        עד-
+        <datepicker date="vm.model['to']"
+          open="vm.open2"
+          disabled="vm.disabled">
+          <input class="datepicker-input"
+            ng-click="$event.stopPropagation();"
+            ng-model="vm.model['to']"
+            ng-disabled="vm.disabled"
+            ng-required="vm.required"
+            input-date />
+          <i class="fa fa-calendar-o fa-fw"></i>
+        </datepicker>
+      </div>
+    </div>
+
+    <div ng-if="vm.type == 'autoComplete'"
+      dialog
+      close-by-click-outside="vm.closeAutoCompleteByClickOutside"
+      class="no-arrow left autocomplete"
+      close="vm.modalClosed"
+      is-open="vm.dialogOpens">
+      <dialog-content>
+        <div ng-if="vm.autoCompleteRow"
+          ng-show="vm.itemsFiltered.length"
+          directive="{{vm.rowsHtmlData}}"
+          compile-template>
+        </div>
+        <div ng-if="!vm.autoCompleteRow"
+          ng-show="vm.itemsFiltered.length"
+          ng-repeat="item in vm.itemsFiltered track by $index"
+          class="row-autocomplete"
+          ng-class="{'selected-arrow': vm.indexArrow == $index}"
+          ng-click="vm.selectObject(item)">
+          <!-- <span ng-if="vm.autoCompleteRow" directive="{{vm.autoCompleteRow}}" compile-template >
+          </span> -->
+          <span directive="<span>{{item}}</span>"
+            compile-template>
+          </span>
+        </div>
+        <div ng-show="!vm.itemsFiltered.length"
+          class="row-autocomplete empty">אין תוצאות</div>
+      </dialog-content>
+    </div>
+  </div>
+
+  <span class="description">
+    <span ng-if="vm.description">
+      {{vm.description}}
+    </span>
+  </span>
+  <span ng-show="vm.formField.$dirty && vm.formField.$invalid"
+    class="validation"
+    ng-class="{{true ? 'valid' : 'invalid'}}">
+    <a class="tooltip tooltip-light tooltip-right {{ vm.formField.$error.pending ? 'fa fa-fw fa-spin ion-load-c pending' : 'ion-ios-close-outline'}}">
+      <span ng-repeat="(error, value) in vm.formField.$error"
+        ng-message="error">
+        {{vm.errorMessage[error] || vm.defaultErrorMsg[error] || 'שגיאה'}}
+        <br>
+      </span>
+    </a>
+  </span>
+</div>

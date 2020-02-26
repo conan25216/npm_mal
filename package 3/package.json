@@ -1,0 +1,40 @@
+{
+  "name": "mktmpio",
+  "version": "0.0.0",
+  "description": "CLI and client library for mktmp.io service",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/test-*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mktmpio/node-mktmpio.git"
+  },
+  "keywords": [
+    "testing",
+    "database",
+    "redis",
+    "mysql",
+    "postgres",
+    "temp"
+  ],
+  "author": "Ryan Graham <r.m.graham@gmail.com>",
+  "license": "Artistic-2.0",
+  "bugs": {
+    "url": "https://github.com/mktmpio/node-mktmpio/issues"
+  },
+  "homepage": "https://github.com/mktmpio/node-mktmpio#readme",
+  "devDependencies": {
+    "nyc": "^2.0.5",
+    "tap": "^1.1.0"
+  },
+  "dependencies": {
+    "lodash": "^3.9.3"
+  },
+  "bin": {
+    "mktmpio": "bin/mktmpio.js"
+  },
+  "directories": {
+    "test": "test"
+  }
+}

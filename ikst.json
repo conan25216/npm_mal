@@ -1,0 +1,148 @@
+{
+  "name": "ikst",
+  "versions": {
+    "0.1.0": {
+      "name": "ikst",
+      "version": "0.1.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+        "postinstall": "node ping.js"
+      },
+      "author": "",
+      "license": "ISC",
+      "_id": "ikst@0.1.0",
+      "_shasum": "06e4dea1ab3f8f88551998df7b9e516fdfaa631f",
+      "_from": ".",
+      "_npmVersion": "1.4.9",
+      "_npmUser": {
+        "name": "tknew",
+        "email": "strzelewicz.alexandre@gmail.com"
+      },
+      "maintainers": [
+        {
+          "name": "tknew",
+          "email": "strzelewicz.alexandre@gmail.com"
+        }
+      ],
+      "dist": {
+        "shasum": "06e4dea1ab3f8f88551998df7b9e516fdfaa631f",
+        "tarball": "http://mirrors.tencent.com/npm/ikst/-/ikst-0.1.0.tgz"
+      },
+      "directories": {}
+    },
+    "0.1.2": {
+      "name": "ikst",
+      "version": "0.1.2",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+        "postinstall": "node index.js"
+      },
+      "author": "",
+      "license": "ISC",
+      "_id": "ikst@0.1.2",
+      "_shasum": "8bfaba6fe7107d95c74659c1ef2efd056e41a2dc",
+      "_from": ".",
+      "_npmVersion": "1.4.9",
+      "_npmUser": {
+        "name": "tknew",
+        "email": "strzelewicz.alexandre@gmail.com"
+      },
+      "maintainers": [
+        {
+          "name": "tknew",
+          "email": "strzelewicz.alexandre@gmail.com"
+        }
+      ],
+      "dist": {
+        "shasum": "8bfaba6fe7107d95c74659c1ef2efd056e41a2dc",
+        "tarball": "http://mirrors.tencent.com/npm/ikst/-/ikst-0.1.2.tgz"
+      },
+      "directories": {}
+    },
+    "1.1.2": {
+      "_args": [
+        [
+          {
+            "raw": "ikst",
+            "scope": null,
+            "escapedName": "ikst",
+            "name": "ikst",
+            "rawSpec": "",
+            "spec": "latest",
+            "type": "tag"
+          },
+          "/tmp"
+        ]
+      ],
+      "_from": ".",
+      "_id": "ikst@1.1.2",
+      "_inCache": true,
+      "_location": "/ikst",
+      "_npmUser": {
+        "name": "tknew",
+        "email": "strzelewicz.alexandre@gmail.com"
+      },
+      "_npmVersion": "3.10.8",
+      "_phantomChildren": {},
+      "_requested": {
+        "raw": "ikst",
+        "scope": null,
+        "escapedName": "ikst",
+        "name": "ikst",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "_requiredBy": [
+        "#USER"
+      ],
+      "_resolved": "https://registry.npmjs.org/ikst/-/ikst-0.1.2.tgz",
+      "_shasum": "d7adb5808a58579e7a018c7f83d331075489b5fe",
+      "_shrinkwrap": null,
+      "_spec": "ikst",
+      "_where": "/tmp",
+      "author": "",
+      "dependencies": {},
+      "devDependencies": {},
+      "directories": {},
+      "dist": {
+        "shasum": "d7adb5808a58579e7a018c7f83d331075489b5fe",
+        "tarball": "http://mirrors.tencent.com/npm/ikst/-/ikst-1.1.2.tgz"
+      },
+      "license": "ISC",
+      "main": "index.js",
+      "maintainers": [
+        {
+          "name": "tknew",
+          "email": "strzelewicz.alexandre@gmail.com"
+        }
+      ],
+      "name": "ikst",
+      "optionalDependencies": {},
+      "scripts": {
+        "postinstall": "node index.js"
+      },
+      "version": "1.1.2",
+      "_nodeVersion": "7.0.0",
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/ikst-1.1.2.tgz_1478083042234_0.5066773523576558"
+      }
+    }
+  },
+  "time": {
+    "modified": "2016-11-02T10:37:24.448Z",
+    "created": "2014-08-16T19:13:41.646Z",
+    "0.1.0": "2014-08-16T19:13:41.646Z",
+    "0.1.2": "2014-08-16T21:14:50.717Z",
+    "1.1.2": "2016-11-02T10:37:24.448Z"
+  },
+  "dist-tags": {
+    "latest": "1.1.2"
+  },
+  "_rev": "5-934f4240d327f877",
+  "readme": "ERROR: No README data found!",
+  "_attachments": {}
+}

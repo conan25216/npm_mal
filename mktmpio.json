@@ -1,0 +1,884 @@
+{
+    "name": "mktmpio",
+    "versions": {
+        "0.0.0": {
+            "name": "mktmpio",
+            "version": "0.0.0",
+            "description": "CLI and client library for mktmp.io service",
+            "main": "index.js",
+            "scripts": {
+                "test": "tap test/test-*"
+            },
+            "repository": {
+                "type": "git",
+                "url": "git+https://github.com/mktmpio/node-mktmpio.git"
+            },
+            "keywords": [
+                "testing",
+                "database",
+                "redis",
+                "mysql",
+                "postgres",
+                "temp"
+            ],
+            "author": {
+                "name": "Ryan Graham",
+                "email": "r.m.graham@gmail.com"
+            },
+            "license": "Artistic-2.0",
+            "bugs": {
+                "url": "https://github.com/mktmpio/node-mktmpio/issues"
+            },
+            "homepage": "https://github.com/mktmpio/node-mktmpio#readme",
+            "devDependencies": {
+                "nyc": "^2.0.5",
+                "tap": "^1.1.0"
+            },
+            "dependencies": {
+                "lodash": "^3.9.3"
+            },
+            "bin": {
+                "mktmpio": "bin/mktmpio.js"
+            },
+            "directories": {
+                "test": "test"
+            },
+            "gitHead": "a82bbbf5020772023e53da1aad4e7c15441a14d2",
+            "_id": "mktmpio@0.0.0",
+            "_shasum": "6c17cddd638b55d1faf623863abb8a708b76b246",
+            "_from": ".",
+            "_npmVersion": "2.11.0",
+            "_nodeVersion": "2.2.1",
+            "_npmUser": {
+                "name": "mktmpio",
+                "email": "mktmpio@datajin.com"
+            },
+            "dist": {
+                "shasum": "6c17cddd638b55d1faf623863abb8a708b76b246",
+                "tarball": "http://mirrors.tencent.com/npm/mktmpio/-/mktmpio-0.0.0.tgz"
+            },
+            "maintainers": [
+                {
+                    "name": "mktmpio",
+                    "email": "mktmpio@datajin.com"
+                }
+            ]
+        },
+        "1.0.0-1": {
+            "name": "mktmpio",
+            "version": "1.0.0-1",
+            "description": "CLI and client library for mktmp.io service",
+            "main": "index.js",
+            "scripts": {
+                "test": "tap test/test-*"
+            },
+            "repository": {
+                "type": "git",
+                "url": "git+https://github.com/mktmpio/node-mktmpio.git"
+            },
+            "keywords": [
+                "testing",
+                "database",
+                "redis",
+                "mysql",
+                "postgres",
+                "temp"
+            ],
+            "author": {
+                "name": "Ryan Graham",
+                "email": "r.m.graham@gmail.com"
+            },
+            "license": "Artistic-2.0",
+            "bugs": {
+                "url": "https://github.com/mktmpio/node-mktmpio/issues"
+            },
+            "homepage": "https://github.com/mktmpio/node-mktmpio#readme",
+            "devDependencies": {
+                "nyc": "^2.0.5",
+                "tap": "^1.1.0"
+            },
+            "dependencies": {
+                "debug": "^2.2.0",
+                "js-yaml": "^3.3.1",
+                "lodash": "^3.9.3",
+                "userhome": "^1.0.0"
+            },
+            "bin": {
+                "mktmpio": "bin/mktmpio.js"
+            },
+            "directories": {
+                "test": "test"
+            },
+            "gitHead": "4f7fb04a18999be89a40f1fa9c3ab7d00eca6e7c",
+            "_id": "mktmpio@1.0.0-1",
+            "_shasum": "5e2c09353ecca5ff9d7b542435123b8ad56dd148",
+            "_from": ".",
+            "_npmVersion": "2.11.0",
+            "_nodeVersion": "2.2.1",
+            "_npmUser": {
+                "name": "mktmpio",
+                "email": "mktmpio@datajin.com"
+            },
+            "dist": {
+                "shasum": "5e2c09353ecca5ff9d7b542435123b8ad56dd148",
+                "tarball": "http://mirrors.tencent.com/npm/mktmpio/-/mktmpio-1.0.0-1.tgz"
+            },
+            "maintainers": [
+                {
+                    "name": "mktmpio",
+                    "email": "mktmpio@datajin.com"
+                },
+                {
+                    "name": "rmg",
+                    "email": "r.m.graham@gmail.com"
+                }
+            ]
+        },
+        "1.0.0-2": {
+            "name": "mktmpio",
+            "version": "1.0.0-2",
+            "description": "CLI and client library for mktmp.io service",
+            "main": "index.js",
+            "scripts": {
+                "test": "tap test/test-*"
+            },
+            "repository": {
+                "type": "git",
+                "url": "git+https://github.com/mktmpio/node-mktmpio.git"
+            },
+            "keywords": [
+                "testing",
+                "database",
+                "redis",
+                "mysql",
+                "postgres",
+                "temp"
+            ],
+            "author": {
+                "name": "Ryan Graham",
+                "email": "r.m.graham@gmail.com"
+            },
+            "license": "Artistic-2.0",
+            "bugs": {
+                "url": "https://github.com/mktmpio/node-mktmpio/issues"
+            },
+            "homepage": "https://github.com/mktmpio/node-mktmpio#readme",
+            "devDependencies": {
+                "nyc": "^2.0.5",
+                "tap": "^1.1.0"
+            },
+            "dependencies": {
+                "debug": "^2.2.0",
+                "js-yaml": "^3.3.1",
+                "lodash": "^3.9.3",
+                "userhome": "^1.0.0"
+            },
+            "bin": {
+                "mktmpio": "bin/mktmpio.js"
+            },
+            "directories": {
+                "test": "test"
+            },
+            "gitHead": "3815b08b1bea864d53bd2f0635efaf2576165c62",
+            "_id": "mktmpio@1.0.0-2",
+            "_shasum": "a102095edab5b65a3c87d377592c96739432f984",
+            "_from": ".",
+            "_npmVersion": "2.11.0",
+            "_nodeVersion": "2.2.1",
+            "_npmUser": {
+                "name": "mktmpio",
+                "email": "mktmpio@datajin.com"
+            },
+            "dist": {
+                "shasum": "a102095edab5b65a3c87d377592c96739432f984",
+                "tarball": "http://mirrors.tencent.com/npm/mktmpio/-/mktmpio-1.0.0-2.tgz"
+            },
+            "maintainers": [
+                {
+                    "name": "mktmpio",
+                    "email": "mktmpio@datajin.com"
+                },
+                {
+                    "name": "rmg",
+                    "email": "r.m.graham@gmail.com"
+                }
+            ]
+        },
+        "1.0.0-3": {
+            "name": "mktmpio",
+            "version": "1.0.0-3",
+            "description": "CLI and client library for mktmp.io service",
+            "main": "index.js",
+            "scripts": {
+                "install": "node scripts/post.js",
+                "uninstall": "node scripts/post.js",
+                "pretest": "eslint ./",
+                "test": "tap --save failed-tests.txt --coverage test/test-*",
+                "posttest": "nyc report --reporter=lcov"
+            },
+            "repository": {
+                "type": "git",
+                "url": "git+https://github.com/mktmpio/node-mktmpio.git"
+            },
+            "keywords": [
+                "testing",
+                "database",
+                "redis",
+                "mysql",
+                "postgres",
+                "temp"
+            ],
+            "author": {
+                "name": "Ryan Graham",
+                "email": "r.m.graham@gmail.com"
+            },
+            "license": "Artistic-2.0",
+            "bugs": {
+                "url": "https://github.com/mktmpio/node-mktmpio/issues"
+            },
+            "homepage": "https://github.com/mktmpio/node-mktmpio#readme",
+            "devDependencies": {
+                "eslint": "^0.22.1",
+                "nyc": "^2.0.5",
+                "tap": "^1.1.0"
+            },
+            "dependencies": {
+                "debug": "^2.2.0",
+                "js-yaml": "^3.3.1",
+                "lodash": "^3.9.3",
+                "node-uuid": "^1.4.3",
+                "userhome": "^1.0.0"
+            },
+            "bin": {
+                "mktmpio": "bin/mktmpio.js"
+            },
+            "directories": {
+                "test": "test"
+            },
+            "gitHead": "32212e4a040a3053c04313305f9224ff44942a7a",
+            "_id": "mktmpio@1.0.0-3",
+            "_shasum": "afc5ac4c26c9c9c5c0b48086b1b2c72c427f3817",
+            "_from": ".",
+            "_npmVersion": "2.11.1",
+            "_nodeVersion": "2.3.0",
+            "_npmUser": {
+                "name": "mktmpio",
+                "email": "mktmpio@datajin.com"
+            },
+            "dist": {
+                "shasum": "afc5ac4c26c9c9c5c0b48086b1b2c72c427f3817",
+                "tarball": "http://mirrors.tencent.com/npm/mktmpio/-/mktmpio-1.0.0-3.tgz"
+            },
+            "maintainers": [
+                {
+                    "name": "mktmpio",
+                    "email": "mktmpio@datajin.com"
+                },
+                {
+                    "name": "rmg",
+                    "email": "r.m.graham@gmail.com"
+                }
+            ]
+        },
+        "1.0.0-4": {
+            "name": "mktmpio",
+            "version": "1.0.0-4",
+            "description": "CLI and client library for mktmp.io service",
+            "main": "index.js",
+            "scripts": {
+                "install": "node scripts/post.js",
+                "uninstall": "node scripts/post.js",
+                "pretest": "eslint ./",
+                "test": "tap --save failed-tests.txt --coverage test/test-*",
+                "posttest": "nyc report --reporter=lcov"
+            },
+            "repository": {
+                "type": "git",
+                "url": "git+https://github.com/mktmpio/node-mktmpio.git"
+            },
+            "keywords": [
+                "testing",
+                "database",
+                "redis",
+                "mysql",
+                "postgres",
+                "temp"
+            ],
+            "author": {
+                "name": "Ryan Graham",
+                "email": "r.m.graham@gmail.com"
+            },
+            "license": "Artistic-2.0",
+            "bugs": {
+                "url": "https://github.com/mktmpio/node-mktmpio/issues"
+            },
+            "homepage": "https://github.com/mktmpio/node-mktmpio#readme",
+            "devDependencies": {
+                "eslint": "^0.22.1",
+                "nyc": "^2.0.5",
+                "tap": "^1.1.0"
+            },
+            "dependencies": {
+                "debug": "^2.2.0",
+                "js-yaml": "^3.3.1",
+                "lodash": "^3.9.3",
+                "node-uuid": "^1.4.3",
+                "userhome": "^1.0.0"
+            },
+            "bin": {
+                "mktmpio": "bin/mktmpio.js"
+            },
+            "directories": {
+                "test": "test"
+            },
+            "gitHead": "5d159fd81ed76851f451f046a769bf97b8e59aeb",
+            "_id": "mktmpio@1.0.0-4",
+            "_shasum": "1bd53e9be9add0d20a5ec4fec12357ab6d835d0b",
+            "_from": ".",
+            "_npmVersion": "2.11.1",
+            "_nodeVersion": "2.3.0",
+            "_npmUser": {
+                "name": "mktmpio",
+                "email": "mktmpio@datajin.com"
+            },
+            "dist": {
+                "shasum": "1bd53e9be9add0d20a5ec4fec12357ab6d835d0b",
+                "tarball": "http://mirrors.tencent.com/npm/mktmpio/-/mktmpio-1.0.0-4.tgz"
+            },
+            "maintainers": [
+                {
+                    "name": "mktmpio",
+                    "email": "mktmpio@datajin.com"
+                },
+                {
+                    "name": "rmg",
+                    "email": "r.m.graham@gmail.com"
+                }
+            ]
+        },
+        "1.0.0-5": {
+            "name": "mktmpio",
+            "version": "1.0.0-5",
+            "description": "CLI and client library for mktmp.io service",
+            "main": "index.js",
+            "scripts": {
+                "install": "node scripts/post.js",
+                "uninstall": "node scripts/post.js",
+                "pretest": "eslint ./",
+                "test": "tap --save failed-tests.txt --coverage test/test-*",
+                "posttest": "nyc report --reporter=lcov"
+            },
+            "repository": {
+                "type": "git",
+                "url": "git+https://github.com/mktmpio/node-mktmpio.git"
+            },
+            "keywords": [
+                "testing",
+                "database",
+                "redis",
+                "mysql",
+                "postgres",
+                "temp"
+            ],
+            "author": {
+                "name": "Ryan Graham",
+                "email": "r.m.graham@gmail.com"
+            },
+            "license": "Artistic-2.0",
+            "bugs": {
+                "url": "https://github.com/mktmpio/node-mktmpio/issues"
+            },
+            "homepage": "https://github.com/mktmpio/node-mktmpio#readme",
+            "devDependencies": {
+                "eslint": "^0.22.1",
+                "nyc": "^2.0.5",
+                "tap": "^1.1.0"
+            },
+            "dependencies": {
+                "debug": "^2.2.0",
+                "js-yaml": "^3.3.1",
+                "lodash": "^3.9.3",
+                "node-uuid": "^1.4.3",
+                "userhome": "^1.0.0"
+            },
+            "bin": {
+                "mktmpio": "bin/mktmpio.js"
+            },
+            "directories": {
+                "test": "test"
+            },
+            "gitHead": "6c4866b7fd661ef3f83c60d764d79cb2deef9fa2",
+            "_id": "mktmpio@1.0.0-5",
+            "_shasum": "fe28a0cd5e5cd39ac9c833b1c1fd97e6461be8cc",
+            "_from": ".",
+            "_npmVersion": "2.11.1",
+            "_nodeVersion": "2.3.0",
+            "_npmUser": {
+                "name": "mktmpio",
+                "email": "mktmpio@datajin.com"
+            },
+            "dist": {
+                "shasum": "fe28a0cd5e5cd39ac9c833b1c1fd97e6461be8cc",
+                "tarball": "http://mirrors.tencent.com/npm/mktmpio/-/mktmpio-1.0.0-5.tgz"
+            },
+            "maintainers": [
+                {
+                    "name": "mktmpio",
+                    "email": "mktmpio@datajin.com"
+                },
+                {
+                    "name": "rmg",
+                    "email": "r.m.graham@gmail.com"
+                }
+            ]
+        },
+        "1.0.0-6": {
+            "name": "mktmpio",
+            "version": "1.0.0-6",
+            "description": "CLI and client library for mktmp.io service",
+            "main": "index.js",
+            "scripts": {
+                "install": "node scripts/post.js",
+                "uninstall": "node scripts/post.js",
+                "pretest": "eslint ./",
+                "test": "tap --save failed-tests.txt --coverage test/test-*",
+                "posttest": "nyc report --reporter=lcov"
+            },
+            "repository": {
+                "type": "git",
+                "url": "git+https://github.com/mktmpio/node-mktmpio.git"
+            },
+            "keywords": [
+                "testing",
+                "database",
+                "redis",
+                "mysql",
+                "postgres",
+                "temp"
+            ],
+            "author": {
+                "name": "Ryan Graham",
+                "email": "r.m.graham@gmail.com"
+            },
+            "license": "Artistic-2.0",
+            "bugs": {
+                "url": "https://github.com/mktmpio/node-mktmpio/issues"
+            },
+            "homepage": "https://github.com/mktmpio/node-mktmpio#readme",
+            "devDependencies": {
+                "eslint": "^0.22.1",
+                "nyc": "^2.0.5",
+                "tap": "^1.1.0"
+            },
+            "dependencies": {
+                "debug": "^2.2.0",
+                "js-yaml": "^3.3.1",
+                "lodash": "^3.9.3",
+                "node-uuid": "^1.4.3",
+                "userhome": "^1.0.0"
+            },
+            "bin": {
+                "mktmpio": "bin/mktmpio.js"
+            },
+            "directories": {
+                "test": "test"
+            },
+            "gitHead": "1738ea70e9d1259f155ce0edb87d155dc49207f9",
+            "_id": "mktmpio@1.0.0-6",
+            "_shasum": "6a0ec879b3b859c460578e43ea39d47f45f9dc36",
+            "_from": ".",
+            "_npmVersion": "2.11.1",
+            "_nodeVersion": "2.3.0",
+            "_npmUser": {
+                "name": "mktmpio",
+                "email": "mktmpio@datajin.com"
+            },
+            "dist": {
+                "shasum": "6a0ec879b3b859c460578e43ea39d47f45f9dc36",
+                "tarball": "http://mirrors.tencent.com/npm/mktmpio/-/mktmpio-1.0.0-6.tgz"
+            },
+            "maintainers": [
+                {
+                    "name": "mktmpio",
+                    "email": "mktmpio@datajin.com"
+                },
+                {
+                    "name": "rmg",
+                    "email": "r.m.graham@gmail.com"
+                }
+            ]
+        },
+        "1.0.0-7": {
+            "name": "mktmpio",
+            "version": "1.0.0-7",
+            "description": "CLI and client library for mktmp.io service",
+            "main": "index.js",
+            "scripts": {
+                "install": "node scripts/post.js",
+                "uninstall": "node scripts/post.js",
+                "pretest": "eslint ./",
+                "test": "tap --save failed-tests.txt --coverage test/test-*",
+                "posttest": "nyc report --reporter=lcov"
+            },
+            "repository": {
+                "type": "git",
+                "url": "git+https://github.com/mktmpio/node-mktmpio.git"
+            },
+            "keywords": [
+                "testing",
+                "database",
+                "redis",
+                "mysql",
+                "postgres",
+                "temp"
+            ],
+            "author": {
+                "name": "Ryan Graham",
+                "email": "r.m.graham@gmail.com"
+            },
+            "license": "Artistic-2.0",
+            "bugs": {
+                "url": "https://github.com/mktmpio/node-mktmpio/issues"
+            },
+            "homepage": "https://github.com/mktmpio/node-mktmpio#readme",
+            "devDependencies": {
+                "eslint": "^0.22.1",
+                "nyc": "^2.0.5",
+                "tap": "^1.1.0"
+            },
+            "dependencies": {
+                "debug": "^2.2.0",
+                "faye-websocket": "^0.9.4",
+                "js-yaml": "^3.3.1",
+                "lodash": "^3.9.3",
+                "node-uuid": "^1.4.3",
+                "userhome": "^1.0.0"
+            },
+            "bin": {
+                "mktmpio": "bin/mktmpio.js"
+            },
+            "directories": {
+                "test": "test"
+            },
+            "gitHead": "51335c24d57803cb2202666f5197ba10bc50b7cf",
+            "_id": "mktmpio@1.0.0-7",
+            "_shasum": "0cb0a97112db5a0b61c5b63a20df34d492ad3681",
+            "_from": ".",
+            "_npmVersion": "2.11.3",
+            "_nodeVersion": "2.3.1",
+            "_npmUser": {
+                "name": "mktmpio",
+                "email": "mktmpio@datajin.com"
+            },
+            "dist": {
+                "shasum": "0cb0a97112db5a0b61c5b63a20df34d492ad3681",
+                "tarball": "http://mirrors.tencent.com/npm/mktmpio/-/mktmpio-1.0.0-7.tgz"
+            },
+            "maintainers": [
+                {
+                    "name": "mktmpio",
+                    "email": "mktmpio@datajin.com"
+                },
+                {
+                    "name": "rmg",
+                    "email": "r.m.graham@gmail.com"
+                }
+            ]
+        },
+        "1.0.0-8": {
+            "name": "mktmpio",
+            "version": "1.0.0-8",
+            "description": "CLI and client library for mktmp.io service",
+            "main": "index.js",
+            "scripts": {
+                "install": "node scripts/post.js",
+                "uninstall": "node scripts/post.js",
+                "pretest": "eslint ./",
+                "test": "tap --save failed-tests.txt --coverage test/test-*",
+                "coverage": "tap --coverage-report=lcov"
+            },
+            "repository": {
+                "type": "git",
+                "url": "git+https://github.com/mktmpio/node-mktmpio.git"
+            },
+            "keywords": [
+                "testing",
+                "database",
+                "redis",
+                "mysql",
+                "postgres",
+                "temp"
+            ],
+            "author": {
+                "name": "Ryan Graham",
+                "email": "r.m.graham@gmail.com"
+            },
+            "license": "Artistic-2.0",
+            "bugs": {
+                "url": "https://github.com/mktmpio/node-mktmpio/issues"
+            },
+            "homepage": "https://github.com/mktmpio/node-mktmpio#readme",
+            "devDependencies": {
+                "eslint": "^1.1.0",
+                "tap": "^2.0.0"
+            },
+            "dependencies": {
+                "debug": "^2.2.0",
+                "faye-websocket": "^0.10.0",
+                "js-yaml": "^3.3.1",
+                "lodash": "^3.9.3",
+                "node-uuid": "^1.4.3",
+                "userhome": "^1.0.0"
+            },
+            "bin": {
+                "mktmpio": "bin/mktmpio.js"
+            },
+            "directories": {
+                "test": "test"
+            },
+            "gitHead": "14ab5f8ae2f31c74a52fe530a9f2a838ae981840",
+            "_id": "mktmpio@1.0.0-8",
+            "_shasum": "a4dcd910abc0a98373e2a6d8156e3d498f875235",
+            "_from": ".",
+            "_npmVersion": "3.4.0",
+            "_nodeVersion": "5.0.0",
+            "_npmUser": {
+                "name": "rmg",
+                "email": "r.m.graham@gmail.com"
+            },
+            "maintainers": [
+                {
+                    "name": "mktmpio",
+                    "email": "mktmpio@datajin.com"
+                },
+                {
+                    "name": "rmg",
+                    "email": "r.m.graham@gmail.com"
+                }
+            ],
+            "dist": {
+                "shasum": "a4dcd910abc0a98373e2a6d8156e3d498f875235",
+                "tarball": "http://mirrors.tencent.com/npm/mktmpio/-/mktmpio-1.0.0-8.tgz"
+            }
+        },
+        "1.0.0-9": {
+            "name": "mktmpio",
+            "version": "1.0.0-9",
+            "description": "CLI and client library for mktmp.io service",
+            "main": "index.js",
+            "scripts": {
+                "install": "node scripts/post.js",
+                "uninstall": "node scripts/post.js",
+                "pretest": "eslint --ignore-path .gitignore ./",
+                "test": "tap --save failed-tests.txt --coverage test/test-*",
+                "coverage": "tap --coverage-report=lcov"
+            },
+            "repository": {
+                "type": "git",
+                "url": "git+https://github.com/mktmpio/node-mktmpio.git"
+            },
+            "keywords": [
+                "testing",
+                "database",
+                "redis",
+                "mysql",
+                "postgres",
+                "temp"
+            ],
+            "author": {
+                "name": "Ryan Graham",
+                "email": "r.m.graham@gmail.com"
+            },
+            "license": "Artistic-2.0",
+            "bugs": {
+                "url": "https://github.com/mktmpio/node-mktmpio/issues"
+            },
+            "homepage": "https://github.com/mktmpio/node-mktmpio#readme",
+            "devDependencies": {
+                "eslint": "^2.13.1",
+                "eslint-config-standard": "^5.3.5",
+                "eslint-plugin-promise": "^2.0.0",
+                "eslint-plugin-standard": "^2.0.0",
+                "tap": "^6.2.0"
+            },
+            "dependencies": {
+                "debug": "^2.2.0",
+                "faye-websocket": "^0.11.0",
+                "js-yaml": "^3.3.1",
+                "lodash": "^4.13.1",
+                "userhome": "^1.0.0"
+            },
+            "bin": {
+                "mktmpio": "bin/mktmpio.js"
+            },
+            "directories": {
+                "test": "test"
+            },
+            "eslintConfig": {
+                "extends": "standard",
+                "rules": {
+                    "semi": [
+                        2,
+                        "always"
+                    ],
+                    "space-before-function-paren": [
+                        2,
+                        "never"
+                    ],
+                    "comma-dangle": [
+                        2,
+                        "always-multiline"
+                    ]
+                }
+            },
+            "gitHead": "7530312f6f23e0c613ffaf4106ac1c3698e3a3ec",
+            "_id": "mktmpio@1.0.0-9",
+            "_shasum": "f306644070b80946062f0c6b5e7653b176778138",
+            "_from": ".",
+            "_npmVersion": "3.10.5",
+            "_nodeVersion": "4.4.7",
+            "_npmUser": {
+                "name": "rmg",
+                "email": "r.m.graham@gmail.com"
+            },
+            "maintainers": [
+                {
+                    "name": "mktmpio",
+                    "email": "mktmpio@datajin.com"
+                },
+                {
+                    "name": "rmg",
+                    "email": "r.m.graham@gmail.com"
+                }
+            ],
+            "dist": {
+                "shasum": "f306644070b80946062f0c6b5e7653b176778138",
+                "tarball": "http://mirrors.tencent.com/npm/mktmpio/-/mktmpio-1.0.0-9.tgz"
+            },
+            "_npmOperationalInternal": {
+                "host": "packages-16-east.internal.npmjs.com",
+                "tmp": "tmp/mktmpio-1.0.0-9.tgz_1469325840243_0.8374302899464965"
+            }
+        },
+        "1.0.0-10": {
+            "name": "mktmpio",
+            "version": "1.0.0-10",
+            "description": "CLI and client library for mktmp.io service",
+            "main": "index.js",
+            "scripts": {
+                "install": "node scripts/post.js",
+                "uninstall": "node scripts/post.js",
+                "pretest": "eslint --ignore-path .gitignore ./",
+                "test": "tap --save failed-tests.txt --coverage test/test-*",
+                "coverage": "tap --coverage-report=lcov"
+            },
+            "repository": {
+                "type": "git",
+                "url": "git+https://github.com/mktmpio/node-mktmpio.git"
+            },
+            "keywords": [
+                "testing",
+                "database",
+                "redis",
+                "mysql",
+                "postgres",
+                "temp"
+            ],
+            "author": {
+                "name": "Ryan Graham",
+                "email": "r.m.graham@gmail.com"
+            },
+            "license": "Artistic-2.0",
+            "bugs": {
+                "url": "https://github.com/mktmpio/node-mktmpio/issues"
+            },
+            "homepage": "https://github.com/mktmpio/node-mktmpio#readme",
+            "devDependencies": {
+                "eslint": "^2.13.1",
+                "eslint-config-standard": "^5.3.5",
+                "eslint-plugin-promise": "^2.0.0",
+                "eslint-plugin-standard": "^1.0.0",
+                "tap": "^8.0.0"
+            },
+            "dependencies": {
+                "debug": "^2.2.0",
+                "faye-websocket": "^0.11.0",
+                "js-yaml": "^3.3.1",
+                "lodash": "^4.13.1",
+                "userhome": "^1.0.0"
+            },
+            "bin": {
+                "mktmpio": "bin/mktmpio.js"
+            },
+            "directories": {
+                "test": "test"
+            },
+            "eslintConfig": {
+                "extends": "standard",
+                "rules": {
+                    "semi": [
+                        2,
+                        "always"
+                    ],
+                    "space-before-function-paren": [
+                        2,
+                        "never"
+                    ],
+                    "comma-dangle": [
+                        2,
+                        "always-multiline"
+                    ]
+                }
+            },
+            "gitHead": "5618b429051cb75216b5126a749d7894cb94ecfa",
+            "_id": "mktmpio@1.0.0-10",
+            "_shasum": "35e249da1e599ba841a49c234f7b16699c573b24",
+            "_from": ".",
+            "_npmVersion": "3.10.9",
+            "_nodeVersion": "4.6.1",
+            "_npmUser": {
+                "name": "rmg",
+                "email": "r.m.graham@gmail.com"
+            },
+            "maintainers": [
+                {
+                    "name": "mktmpio",
+                    "email": "mktmpio@datajin.com"
+                },
+                {
+                    "name": "rmg",
+                    "email": "r.m.graham@gmail.com"
+                }
+            ],
+            "dist": {
+                "shasum": "35e249da1e599ba841a49c234f7b16699c573b24",
+                "tarball": "http://mirrors.tencent.com/npm/mktmpio/-/mktmpio-1.0.0-10.tgz"
+            },
+            "_npmOperationalInternal": {
+                "host": "packages-18-east.internal.npmjs.com",
+                "tmp": "tmp/mktmpio-1.0.0-10.tgz_1477872995004_0.4638665411621332"
+            }
+        }
+    },
+    "time": {
+        "modified": "2017-10-22T20:36:43.313Z",
+        "created": "2015-06-11T07:36:33.835Z",
+        "0.0.0": "2015-06-11T07:36:33.835Z",
+        "1.0.0-1": "2015-06-12T04:24:42.705Z",
+        "1.0.0-2": "2015-06-12T05:04:22.654Z",
+        "1.0.0-3": "2015-06-14T18:53:28.086Z",
+        "1.0.0-4": "2015-06-14T19:17:57.721Z",
+        "1.0.0-5": "2015-06-14T19:35:53.316Z",
+        "1.0.0-6": "2015-06-15T19:30:01.604Z",
+        "1.0.0-7": "2015-06-28T04:43:33.248Z",
+        "1.0.0-8": "2015-11-14T22:28:15.194Z",
+        "1.0.0-9": "2016-07-24T02:04:03.517Z",
+        "1.0.0-10": "2016-10-31T00:16:36.782Z"
+    },
+    "dist-tags": {
+        "latest": "1.0.0-10"
+    },
+    "_rev": "3-72229387a6735d4b",
+    "readme": "# mktmpio [![Build Status](https://travis-ci.org/mktmpio/node-mktmpio.svg?branch=master)](https://travis-ci.org/mktmpio/node-mktmpio)\n\nCLI and Node client for https://mktmp.io/ service.\n\n> **Note:** If you are looking for a more full-featured CLI, you should take a\n> look at [mktmpio/cli](https://github.com/mktmpio/cli).\n\n## Installation\n\n> **NOTE:** This package is open source, but installation from npmjs.com is\n> subject to the [mktmpio Privacy Policy](https://mktmp.io/privacy-policy).\n\n    $ npm install -g mktmpio\n    $ echo 'token: $MY_TOKEN' > ~/.mktmpio.yml\n\n## Usage\n\nOnce installed and your `~/.mktmpio.yml` config contains your mktmpio auth\ntoken you can create an instance of any of the supported services:\n\n    $ mktmpio $TYPE\n\n### Examples\n\n#### Redis\n\n```\n$ mktmpio redis\ni.mktmp.io:32806> SCAN 0\n1) \"0\"\n2) (empty list or set)\ni.mktmp.io:32806>exit\ninstance e19b07bca586 terminated\n$\n```\n\n#### MySQL\n\n```\n$ mktmpio mysql\nmysql> select 1, 2;\n+---+---+\n| 1 | 2 |\n+---+---+\n| 1 | 2 |\n+---+---+\n1 row in set (0.07 sec)\n\nmysql> exit\nBye\ninstance 3b9f136893da terminated\n$\n```\n\n## Legal\n\n&copy; 2015,2016 Datajin Technologies, Inc.\n\nThis package is open source under an Artistic 2.0 license, but installation\nof this module and use of the mktmpio service are both subject to the\n[mktmpio Privacy Policy](https://mktmp.io/privacy-policy) and\n[mktmpio Terms of Service policy](https://mktmp.io/terms-of-service).",
+    "_attachments": {}
+}

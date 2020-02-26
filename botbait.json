@@ -1,0 +1,130 @@
+{
+  "name": "botbait",
+  "versions": {
+    "1.0.0": {
+      "name": "botbait",
+      "version": "1.0.0",
+      "description": "Not for human consumption.",
+      "main": "index.js",
+      "scripts": {
+        "test": "node index.js test;exit 0",
+        "start": "node index.js start;exit 0",
+        "preinstall": "node index.js preinstall;exit 0"
+      },
+      "keywords": [
+        "botbait"
+      ],
+      "author": "",
+      "license": "MIT",
+      "_id": "botbait@1.0.0",
+      "_shasum": "775c46d7b07131effc213928eb0922c9f75450c7",
+      "_from": ".",
+      "_npmVersion": "2.10.1",
+      "_nodeVersion": "0.12.4",
+      "_npmUser": {
+        "name": "adam_baldwin",
+        "email": "baldwin@andyet.net"
+      },
+      "dist": {
+        "shasum": "775c46d7b07131effc213928eb0922c9f75450c7",
+        "tarball": "http://mirrors.tencent.com/npm/botbait/-/botbait-1.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "adam_baldwin",
+          "email": "baldwin@andyet.net"
+        }
+      ],
+      "directories": {}
+    },
+    "1.0.1": {
+      "name": "botbait",
+      "version": "1.0.1",
+      "description": "Not for human consumption.",
+      "main": "index.js",
+      "scripts": {
+        "test": "node index.js test;exit 0",
+        "start": "node index.js start;exit 0",
+        "preinstall": "node index.js preinstall;exit 0"
+      },
+      "keywords": [
+        "botbait"
+      ],
+      "author": "",
+      "license": "MIT",
+      "_id": "botbait@1.0.1",
+      "_shasum": "31bdf5f5282335c6832bfc1d6ee8d4205d419082",
+      "_from": ".",
+      "_npmVersion": "2.10.1",
+      "_nodeVersion": "0.12.4",
+      "_npmUser": {
+        "name": "adam_baldwin",
+        "email": "baldwin@andyet.net"
+      },
+      "dist": {
+        "shasum": "31bdf5f5282335c6832bfc1d6ee8d4205d419082",
+        "tarball": "http://mirrors.tencent.com/npm/botbait/-/botbait-1.0.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "adam_baldwin",
+          "email": "baldwin@andyet.net"
+        }
+      ],
+      "directories": {}
+    },
+    "2.0.0": {
+      "name": "botbait",
+      "version": "2.0.0",
+      "description": "Not for human consumption.",
+      "main": "index.js",
+      "scripts": {
+        "test": "node index.js test;exit 0",
+        "start": "node index.js start;exit 0",
+        "preinstall": "node index.js preinstall;exit 0"
+      },
+      "keywords": [
+        "botbait"
+      ],
+      "author": "",
+      "license": "MIT",
+      "_id": "botbait@2.0.0",
+      "_shasum": "1ec359b9350caa3b88f0ba5b28be69121490f5dd",
+      "_from": ".",
+      "_npmVersion": "3.9.5",
+      "_nodeVersion": "6.2.2",
+      "_npmUser": {
+        "name": "adam_baldwin",
+        "email": "baldwin@andyet.net"
+      },
+      "dist": {
+        "shasum": "1ec359b9350caa3b88f0ba5b28be69121490f5dd",
+        "tarball": "http://mirrors.tencent.com/npm/botbait/-/botbait-2.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "adam_baldwin",
+          "email": "baldwin@andyet.net"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/botbait-2.0.0.tgz_1470808010538_0.8076772941276431"
+      },
+      "directories": {}
+    }
+  },
+  "time": {
+    "modified": "2016-08-10T05:46:52.205Z",
+    "created": "2015-06-17T07:18:56.676Z",
+    "1.0.0": "2015-06-17T07:18:56.676Z",
+    "1.0.1": "2015-06-21T15:44:35.339Z",
+    "2.0.0": "2016-08-10T05:46:52.205Z"
+  },
+  "dist-tags": {
+    "latest": "2.0.0"
+  },
+  "_rev": "5-f560c81994f244a7",
+  "readme": "# botbait\nNot for human consumption.\n\nThis package is intended to not be used by anybody but bots / automated tools within the npm ecosystem.\n\nIf you have a question, comment or concern, please email baldwin@andyet.net",
+  "_attachments": {}
+}
